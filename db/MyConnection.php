@@ -12,15 +12,11 @@
  * @author Chirag Khichadiya
  */
 $conn = false;
-/*define("DB_HOST", "sql5016.smarterasp.net");
-define("DB_USER", "DB_A1898B_test_admin");
-define("DB_PASSWORD", "h0Aka01F");
-define("DB_DATABASE", "db_a1898b_test");*/
 
-define("DB_HOST", "mssql2.gear.host");
-define("DB_USER", "webapp101");
-define("DB_PASSWORD", "El32p~1A?V2D");
-define("DB_DATABASE", "webapp101");
+define("DB_HOST", "localhost");
+define("DB_USER", "test");
+define("DB_PASSWORD", "test");
+define("DB_DATABASE", "calendar");
 
 class MyConnection {
 
